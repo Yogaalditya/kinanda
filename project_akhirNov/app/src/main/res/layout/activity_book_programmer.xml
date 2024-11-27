@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/logoBook"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/programmer" /> <!-- Replace with your drawable -->
+
+
+            <TextView
+                android:id="@+id/judulBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:gravity="center"
+                android:text="Ada Lovelace dan Mesin Pemikir"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/isiCeritaBuku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="6dp"
+                android:justificationMode="inter_word"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Pada abad ke-19, di tengah perkembangan ilmu pengetahuan yang pesat, lahir seorang wanita bernama Ada Byron, yang kemudian dikenal sebagai Ada Lovelace. Putri seorang penyair terkenal, Lord Byron, ia tidak hanya mewarisi kecerdasan tetapi juga imajinasi yang luar biasa. Namun, berbeda dari ayahnya yang tenggelam dalam dunia puisi, Ada tertarik pada matematika dan sains.\n\n
+Ketertarikan Ada pada mesin mekanik membawanya bertemu dengan Charles Babbage, seorang ilmuwan jenius yang menciptakan desain untuk sebuah alat revolusioner bernama Mesin Analitis. Mesin ini dirancang untuk melakukan perhitungan otomatis, sebuah ide yang jauh melampaui zamannya. Saat pertama kali melihat prototipe Mesin Analitis, Ada terpesona. Ia membayangkan bahwa mesin itu bukan hanya untuk menghitung angka, tetapi juga dapat menghasilkan musik, memproses pola, dan memecahkan masalah kompleks.\n\n
+Dalam prosesnya, Ada diminta menerjemahkan catatan tentang Mesin Analitis dari bahasa Prancis ke Inggris. Namun, ia tidak berhenti di situ. Dengan kreativitas dan wawasan mendalamnya, Ada menambahkan catatan tambahan yang jauh lebih panjang daripada teks asli. Dalam catatan inilah, ia menulis langkah-langkah rinci untuk menghitung angka Bernoulli menggunakan mesin tersebut. Langkah-langkah ini diakui sebagai program komputer pertama di dunia.\n\n
+Apa yang membuat kontribusi Ada begitu istimewa adalah visinya. Ia memahami potensi mesin seperti itu jauh sebelum komputer modern diciptakan. Ia membayangkan bagaimana mesin bisa digunakan untuk memproses informasi non-numerik dan membantu manusia dalam berbagai bidang.\n\n
+Meskipun Mesin Analitis Babbage tidak pernah selesai dibangun semasa hidupnya, karya Ada menjadi inspirasi bagi generasi ilmuwan dan insinyur. Ia dianggap sebagai ibu pemrograman komputer, sebuah gelar yang tetap melekat hingga kini.\n\n
+Cerita Ada adalah bukti bahwa inovasi besar lahir dari perpaduan antara logika dan imajinasi. Sebuah warisan yang mengingatkan kita bahwa impian dan wawasan dapat melampaui batas waktu." />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

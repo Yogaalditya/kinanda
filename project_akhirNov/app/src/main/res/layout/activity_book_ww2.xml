@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bookWw2Activity">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/logoBook"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ww2" /> <!-- Replace with your drawable -->
+
+
+            <TextView
+                android:id="@+id/judulBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:text="Poems of the Great War"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/isiCeritaBuku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="6dp"
+                android:justificationMode="inter_word"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Puisi Perang: Kisah Para Prajurit di Balik Parit\n\n
+Perang Dunia Pertama, yang berlangsung dari tahun 1914 hingga 1918, adalah salah satu konflik paling mematikan dalam sejarah umat manusia. Lebih dari 70 juta tentara dikerahkan dari berbagai negara, bertempur di daratan Eropa dalam perang parit yang panjang dan penuh penderitaan. Dalam perang ini, darah dan lumpur bercampur menjadi satu, mengisahkan kepedihan hati yang melahirkan karya-karya sastra abadi dari para prajurit.\n\n
+Di sepanjang garis depan, ribuan prajurit terjebak dalam kehidupan yang keras dan penuh bahaya. Parit-parit, yang digali untuk perlindungan, menjadi tempat tinggal mereka selama berbulan-bulan, bahkan bertahun-tahun. Bau busuk lumpur bercampur darah, desing peluru yang tiada henti, dan malam-malam yang gelap diiringi dentuman artileri adalah bagian dari kehidupan sehari-hari mereka.\n\n
+Di antara semua itu, ada sekelompok prajurit yang mengungkapkan perasaan mereka melalui tulisan. Mereka menulis puisi, surat, dan catatan yang menggambarkan rasa takut, harapan, serta kerinduan akan rumah. Kata-kata mereka adalah saksi bisu dari tragedi perang.\n\n
+Salah satu prajurit muda, yang hanya dikenal dengan nama William, menulis puisi di tengah malam. Di sela-sela ledakan granat dan erangan teman-temannya yang terluka, ia menuliskan:\n\n
+'Di bawah bintang yang redup,\n
+Kita berbaring di parit ini.\n
+Di sini, waktu tak lagi bergerak,\n
+Hanya doa yang menemani.'\n\n
+Puisi-puisi seperti ini sering dibacakan di malam hari, saat keheningan sementara menyelimuti medan perang. Mereka menjadi pengingat akan kemanusiaan yang tersisa di tengah kegilaan.\n\n
+Ketika perang akhirnya berakhir pada 11 November 1918, Eropa telah hancur, jutaan jiwa melayang, dan generasi muda kehilangan masa depan mereka. Namun, karya-karya sastra yang lahir dari perang ini menjadi warisan abadi. Mereka tidak hanya menceritakan kebrutalan perang, tetapi juga menyuarakan rasa kemanusiaan, harapan, dan kerinduan akan perdamaian.\n\n
+Dalam buku 'Poems of the Great War', kata-kata para prajurit menjadi pengingat akan kengerian perang dan pentingnya perdamaian. Mereka berbicara kepada generasi yang akan datang, agar tidak mengulangi kesalahan yang sama." />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/logoBook"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/albert" /> <!-- Replace with your drawable -->
+
+
+            <TextView
+                android:id="@+id/judulBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:gravity="center"
+                android:text="Albert Einstein: Jenius di Balik Relativitas"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/isiCeritaBuku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="6dp"
+                android:justificationMode="inter_word"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Albert Einstein adalah salah satu tokoh paling berpengaruh dalam sejarah ilmu pengetahuan. Lahir pada 14 Maret 1879 di Ulm, Jerman, Einstein sejak kecil menunjukkan ketertarikan mendalam terhadap sains dan matematika, meskipun ia dikenal sebagai anak yang pemalu dan sering dianggap kurang berbakat di sekolah formal.\n\n
+Pada tahun 1905, yang sering disebut sebagai Annus Mirabilis (Tahun Keajaiban), Einstein menerbitkan empat makalah yang mengubah dunia fisika selamanya. Salah satunya adalah teori relativitas khusus, yang memperkenalkan rumus terkenal E = mc^2. Rumus ini mengungkapkan hubungan antara massa dan energi, dan menjadi dasar bagi banyak inovasi teknologi modern.\n\n
+Selain itu, pada tahun 1915, ia memperkenalkan teori relativitas umum, yang merevolusi pemahaman kita tentang gravitasi. Dalam teorinya, Einstein menjelaskan bahwa gravitasi bukanlah sekadar gaya tarik, melainkan hasil dari kelengkungan ruang dan waktu yang disebabkan oleh massa benda.\n\n
+Einstein bukan hanya seorang ilmuwan, tetapi juga seorang humanis dan pembela perdamaian. Ia vokal dalam menentang perang dan senjata nuklir, terutama setelah melihat kehancuran akibat Perang Dunia II. Pada tahun 1921, Einstein dianugerahi Penghargaan Nobel dalam Fisika, bukan untuk teori relativitasnya, tetapi untuk penjelasannya tentang efek fotolistrik, yang menjadi dasar bagi pengembangan teknologi seperti sel surya.\n\n
+Hingga akhir hidupnya, Einstein terus bekerja untuk menyatukan hukum-hukum fisika dalam apa yang ia sebut sebagai teori medan terpadu. Meskipun ia tidak sempat menyelesaikan karya ini, kontribusinya tetap menjadi dasar penelitian fisika modern.\n\n
+Albert Einstein meninggal pada 18 April 1955 di Princeton, New Jersey, Amerika Serikat. Hingga hari ini, ia tetap dikenang sebagai simbol kecerdasan, kreativitas, dan rasa ingin tahu tanpa batas." />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

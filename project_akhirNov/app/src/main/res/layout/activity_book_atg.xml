@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logoBook"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/atg2" /> <!-- Replace with your drawable -->
+
+            <TextView
+                android:id="@+id/judulBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:gravity="center"
+                android:text="Alexander Agung: Kisah Hidup Seorang Penakluk"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/isiCeritaBuku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="6dp"
+                android:justificationMode="inter_word"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Alexander III dari Makedonia, yang lebih dikenal sebagai Alexander the Great, adalah salah satu tokoh paling legendaris dalam sejarah dunia. Lahir pada 356 SM di Pella, ibu kota Makedonia kuno, Alexander adalah putra Raja Filipus II dan Ratu Olympias. Sejak usia muda, Alexander menunjukkan bakat kepemimpinan dan kecerdasan luar biasa, dibentuk oleh pendidikan yang ia terima dari Aristoteles, seorang filsuf besar Yunani.\n\n
+Masa Muda dan Naiknya Tahta\n
+Alexander mulai memimpin pasukan sejak usia muda dan membuktikan dirinya sebagai komandan militer yang tak tertandingi. Pada usia 20 tahun, setelah pembunuhan ayahnya, Alexander naik tahta sebagai Raja Makedonia. Ia segera mengarahkan perhatiannya untuk mewujudkan mimpi besar Filipus: menaklukkan Kekaisaran Persia.\n\n
+Penaklukan Besar-Besaran\n
+Dalam waktu kurang dari satu dekade, Alexander memimpin salah satu ekspedisi militer paling sukses dalam sejarah. Dengan pasukan yang relatif kecil, ia berhasil menaklukkan kekaisaran besar Persia, termasuk wilayah-wilayah seperti Mesir, Mesopotamia, dan Asia Tengah. Di Mesir, ia mendirikan kota Alexandria yang menjadi pusat kebudayaan dan pengetahuan dunia kuno.\n\n
+Salah satu kemenangannya yang paling terkenal adalah Pertempuran Gaugamela pada 331 SM, di mana ia mengalahkan Darius III, Kaisar Persia. Setelah kemenangan itu, Alexander dinyatakan sebagai raja Asia.\n\n
+Sebagai Pemimpin dan Visioner\n
+Alexander tidak hanya seorang penakluk, tetapi juga seorang visioner yang bercita-cita menyatukan dunia. Ia mempromosikan integrasi budaya dengan menggabungkan tradisi Yunani dan Timur dalam pemerintahannya. Ia bahkan mendorong pernikahan antarbudaya antara tentaranya dan penduduk setempat, sebuah langkah yang belum pernah dilakukan oleh penakluk lainnya.\n\n
+Namun, ambisinya tidak pernah berhenti. Ia terus mendorong pasukannya hingga ke India, di mana ia menghadapi perlawanan sengit di Sungai Hydaspes. Meskipun menang, pasukannya yang kelelahan menolak melanjutkan perjalanan lebih jauh.\n\n
+Akhir Kehidupan\n
+Pada usia 32 tahun, setelah menaklukkan sebagian besar dunia yang dikenal kala itu, Alexander meninggal secara tiba-tiba di Babilonia pada 323 SM. Penyebab kematiannya masih menjadi misteri hingga hari ini, dengan beberapa teori yang menyebutkan keracunan, malaria, atau penyakit lainnya.\n\n
+Warisan Alexander the Great tetap hidup hingga hari ini. Ia tidak hanya mengubah peta dunia, tetapi juga menyebarkan kebudayaan Helenistik yang memengaruhi peradaban hingga berabad-abad kemudian. Dengan keberanian, visi, dan kepemimpinannya yang luar biasa, ia diingat sebagai salah satu tokoh terbesar dalam sejarah manusia." />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
